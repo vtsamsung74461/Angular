@@ -42,3 +42,5 @@ attach a specified behavior to an existing element.
 ngIf
 ngFor
 ngSwitch
+ngClass
+ngStyle
