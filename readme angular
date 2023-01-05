@@ -32,6 +32,8 @@ ng generate module shared
 ng generate module routing --routing
 ng generate module sales
 ng generate module supportng generate component sales
+ng new directives-ex300
+
 ng generate component support
 ng generate component shared
 Introducing Directives
