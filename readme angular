@@ -1,0 +1,10 @@
+npm install @angular/{common,compiler,compiler-cli,
+core,
+forms,http,platform-browser,platform-browser-dynamic,platform-server,
+router,animations}@latest typescript@latest --save
+
+Write components
+mention in modules
+Data binding to views through view to model of one and two wauy data binding
+NGfor ul li 	component template html
+Event handling
