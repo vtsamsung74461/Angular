@@ -26,3 +26,11 @@ declarations: [NgFor]
 })
 class CommonModule {
 }
+Generate modules: Let’s use the CLI to generate additional
+modules:
+ng generate module shared
+ng generate module routing --routing
+ng generate module sales
+ng generate module supportng generate component sales
+ng generate component support
+ng generate component shared
