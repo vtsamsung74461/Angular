@@ -8,3 +8,21 @@ mention in modules
 Data binding to views through view to model of one and two wauy data binding
 NGfor ul li 	component template html
 Event handling
+ NgModule.declarations?: (any[] | Type<any>)[] | undefined
+The set of components, directives, and pipes (declarables) that belong to this module.
+
+@usageNotes
+The set of selectors that are available to a template include those declared here, and those that are exported from imported NgModules.
+
+Declarables must belong to exactly one module. The compiler emits an error if you try to declare the same class in more than one module. Be careful not to declare a class that is imported from another module.
+
+Example
+The following example allows the CommonModule to use the NgFor directive.
+
+
+*@NgModule*  
+({
+declarations: [NgFor]
+})
+class CommonModule {
+}
