@@ -39,3 +39,6 @@ ng generate component shared
 Introducing Directives
 Directives are markers on a DOM element (such as an attribute) that tell Angular to
 attach a specified behavior to an existing element.
+ngIf
+ngFor
+ngSwitch
